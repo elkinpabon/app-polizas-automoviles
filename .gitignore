@@ -1,0 +1,126 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ==================== FLUTTER ====================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.lock
+build/
+coverage/
+lib/generated_plugin_registrant.dart
+.env
+.env.local
+
+# Windows Flutter
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+windows/flutter/ephemeral/
+build/windows/x64/
+
+# Android Flutter
+android/local.properties
+android/.gradle
+android/build/
+android/app/debug/
+android/app/release/
+android/app/profile/
+.android/
+
+# iOS Flutter
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Podfile.lock
+
+# macOS Flutter
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/Podfile.lock
+
+# Web Flutter
+web/main.dart.js
+
+# ==================== JAVA / SPRING BOOT ====================
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+
+# ==================== GENERAL ====================
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+### Logs ###
+*.log
+logs/
+
+### Temporal ###
+*.tmp
+*.bak
+*.temp
+
+### Databases ###
+*.db
+*.sqlite
+*.sqlite3
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+
+### Node (opcional) ###
+node_modules/
+npm-debug.log
+yarn-error.log
+
+### Reportes ###
+*.lcov
